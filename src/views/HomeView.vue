@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h1>Welcome to Habitrackus</h1>
     <br/><br/>
     <div class="container text-center">
       <div class="row">
@@ -15,6 +16,13 @@
     <a class="btn btn-dark" href="/myhabits" role="button">Start</a>
   </div>
 </template>
+
+<style scoped>
+h1{
+  font-family: Roboto,Roboto,serif ;
+  color: black;
+}
+</style>
 
 <script>
 // @ is an alias to /src

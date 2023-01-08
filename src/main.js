@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap'
 import 'animate.css'
 
+
 const oktaAuth = new OktaAuth(sampleConfig.oidc)
 
 createApp(App)

@@ -1,5 +1,5 @@
 <template>
-  <h1>Welcome to your Personal Habits</h1>
+  <h1>Personal Habits</h1>
   <br/><br/>
   <div class="container text-center">
     <div class="row">
@@ -7,7 +7,15 @@
       </div>
       <div class="col-8">
         <HabitsList></HabitsList>
-        <AddHabit></AddHabit>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+            </div>
+            <div class="col-8">
+              <AddHabit></AddHabit>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col">
       </div>
@@ -28,4 +36,8 @@ export default {
 
 <style scoped>
 
+h1{
+  font-family: Roboto,Roboto,serif ;
+  color: black;
+}
 </style>

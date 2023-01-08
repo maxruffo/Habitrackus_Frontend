@@ -1,6 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
+import { LoginCallback, navigationGuard } from '@okta/okta-vue'
+
+
+import ProfileComponent from '@/views/ProfileView.vue'
+
+
+
 const routes = [
   {
     path: '/',
@@ -25,11 +32,17 @@ const routes = [
   },
   {
     path: '/login',
-    name: 'Login',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/LoginView.vue')
+  },
+  {
+    path: '/login/callback',
+    component: LoginCallback
+  },
+  {
+    path: '/profile',
+    component: ProfileComponent,
+    meta: {
+      requiresAuth: true
+    }
   }
 ]
 
@@ -39,4 +52,5 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach(navigationGuard)
 export default router

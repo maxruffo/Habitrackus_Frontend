@@ -7,15 +7,15 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../assets/PersonDrinkingandSmoking.png" class="d-block w-100" alt="..." width="250" height="500">
+      <div class="carousel-item active" >
+        <img src="../assets/maneatingpizza.jpg" class="d-block w-100" alt="..." width="250" height="500">
         <div class="carousel-caption d-none d-md-block">
           <h5>Recognise your Bad-Habits</h5>
           <p>The firs step should always be to recognise your Bad Habits first</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="../assets/MyHabitsHomePage.png" class="d-block w-100" alt="..." width="250" height="500">
+        <img src="../assets/climbingmountain.jpg" class="d-block w-100" alt="..." width="250" height="500">
         <div class="carousel-caption d-none d-md-block">
           <h5>Habitrackus will Help</h5>
           <p>Habitrackus is an Application that will Help you tracking your daily habits</p>
@@ -43,5 +43,12 @@ export default {
 </script>
 
 <style scoped>
-
+h5{
+  font-family: Roboto,Roboto,serif ;
+  color: black;
+}
+p{
+  font-family: Roboto,Roboto,serif ;
+  color: black;
+}
 </style>
