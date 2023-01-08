@@ -71,5 +71,11 @@ export default {
 </script>
 
 <style scoped>
-
+input{
+  height:50px;
+  width: 300px;
+}
+.btn-dark{
+  font-size: 25px;
+}
 </style>

@@ -38,6 +38,7 @@ export default {
 
 h1{
   font-family: Roboto,Roboto,serif ;
-  color: black;
+  color: rgb(85, 153, 122);
 }
+
 </style>

@@ -13,6 +13,7 @@
         </div>
       </div>
     </div>
+    <p></p>
     <a class="btn btn-dark" href="/myhabits" role="button">Start</a>
   </div>
 </template>
@@ -20,9 +21,13 @@
 <style scoped>
 h1{
   font-family: Roboto,Roboto,serif ;
-  color: black;
+  color: rgb(85, 153, 122);
+}
+.btn-dark{
+  font-size: 30px;
 }
 </style>
+
 
 <script>
 // @ is an alias to /src

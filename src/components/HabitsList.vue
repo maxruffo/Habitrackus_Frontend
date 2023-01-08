@@ -81,13 +81,18 @@ export default {
 </script>
 
 <style scoped>
-
+.eintraege{
+  font-size: 25px;
+}
+tr{
+  color: #ffffff;
+}
 .form-check-input{
 width: 40px; height: 40px;
   margin-top: 0px;
 }
 .form-check-input:checked {
-  background-color: #474e5d;
+  background-color: #55997a;
   border-color: white;
 }
 .mx-1{

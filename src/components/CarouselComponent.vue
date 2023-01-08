@@ -11,14 +11,14 @@
         <img src="../assets/maneatingpizza.jpg" class="d-block w-100" alt="..." width="250" height="500">
         <div class="carousel-caption d-none d-md-block">
           <h5>Recognise your Bad-Habits</h5>
-          <p>The firs step should always be to recognise your Bad Habits first</p>
+          <p1>The firs step should always be to recognise your Bad Habits first</p1>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/climbingmountain.jpg" class="d-block w-100" alt="..." width="250" height="500">
         <div class="carousel-caption d-none d-md-block">
           <h5>Habitrackus will Help</h5>
-          <p>Habitrackus is an Application that will Help you tracking your daily habits</p>
+          <p1>Habitrackus is an Application that will Help you tracking your daily habits</p1>
         </div>
       </div>
       <div class="carousel-item">
@@ -43,12 +43,16 @@ export default {
 </script>
 
 <style scoped>
+.carousel-inner{
+  border-radius: 70px;
+}
 h5{
   font-family: Roboto,Roboto,serif ;
-  color: black;
+  color: rgb(85, 153, 122);
+  font-size: 30px;
 }
-p{
+p1{
   font-family: Roboto,Roboto,serif ;
-  color: black;
+  color: rgb(85, 153, 122);;
 }
 </style>
