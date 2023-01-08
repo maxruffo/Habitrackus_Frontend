@@ -1,4 +1,10 @@
 # Habitrackus keep track of your daily Habit
+# Description of this Application
+#### this WebApplication lets you :
+1. Track your Daily Habits
+2. Remove or Add Habits
+3. See all the Habits you have in  a Day
+4. manipulate the different Habits
 ## Getting Started
 - Please Note that before you can Work with the Frontend you have to build the Backend see in reference : https://github.com/maxruffo/Habitrackus_Backend
 - also if you have a special localhostsetup for anyreason change the .env.development File 
